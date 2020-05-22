@@ -1,0 +1,35 @@
+/gitian-descriptors
+src/*.exe
+src/DigitalRupee
+src/DigitalRupeed
+src/test_DigitalRupee
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.DigitalRupee
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+DigitalRupee-qt
+DigitalRupee-Qt.app
+
+# Unit-tests
+Makefile.test
+DigitalRupee-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
